@@ -19,7 +19,7 @@ body
 	text-align:center;
 	vertical-align:center;
 	border:2px solid black;
-	background:#222222;
+	background: rgb(32, 16, 55);
 }
 .ques:hover
 {
