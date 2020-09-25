@@ -25,7 +25,7 @@
   <body>
     <header>
       <!-- Navigation -->
-      <nav class="my-navbar navbar fixed-top navbar-expand-lg navbar-dark">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
@@ -59,22 +59,30 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link pr-3 pl-3" href="#about-link">About</a>
+                <a class="nav-link pr-3 pl-3" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link pr-3 pl-3" href="#schedule-link">Schedule</a>
+                <a class="nav-link pr-3 pl-3" href="#schedule">Schedule</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link pr-3 pl-3" href="#">Prizes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link pr-3 pl-3" href="#gallery-link">Gallery</a>
+                <a class="nav-link pr-3 pl-3" href="#gallery">Gallery</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link pr-3 pl-3" href="#">Sponsors</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link pr-3 pl-3" href="#faq">FAQ's</a>
+              </li>
               <li class="register nav-item">
-                <a class="nav-link pr-3 pl-3" href="#">Register</a>
+                <a
+                  target="_blank"
+                  class="nav-link pr-3 pl-3"
+                  href="https://www.workshops.istemanit.in/register"
+                  >Register</a
+                >
               </li>
             </ul>
           </div>
@@ -116,14 +124,16 @@
           </div>
         </div>
       </section>
-      <div class="mb-3" id="about-link"></div>
       <!-- Hero Section end -->
     </header>
     <main>
       <!-- About Section -->
-      <section class="about-section">
+      <section class="about-section" id="about">
         <div class="container text-center">
           <div class="row justify-content-center">
+            <h1 class="about-mobile section-heading display-3 text-center">
+              ABOUT
+            </h1>
             <div class="col-md-10 col-lg-6">
               <div class="about-image">
                 <img src="./images/reg.jpg" alt="About Image" />
@@ -131,8 +141,9 @@
             </div>
             <div class="col-md-10 col-lg-6">
               <div class="about-text">
-                <h2 class="about-big display-3">ABOUT</h2>
-                <h1>ABOUT</h1>
+                <h1 class="about-desktop section-heading display-3 text-center">
+                  ABOUT
+                </h1>
                 <p>
                   Version β: Possibly India’s biggest hackathon in the near
                   future. Version β stands for a cause; To eliminate rote
@@ -147,11 +158,7 @@
                   individual.
                 </p>
               </div>
-              <button
-                class="btn vb19"
-                style="text-transform: none"
-                id="schedule-link"
-              >
+              <button class="btn vb19" style="text-transform: none">
                 VERSION BETA 2019
               </button>
             </div>
@@ -160,12 +167,11 @@
       </section>
       <!-- About Section end -->
       <!-- Schedule Section -->
-      <section class="schedule-section">
+      <section class="schedule-section" id="schedule">
         <div class="container">
-          <div class="row justify-content-center schedule-heading pt-2 pb-2">
+          <div class="row justify-content-center schedule-heading">
             <div class="col-md-10 text-center">
-              <h1 class="mb-4 sch-big display-1">SCHEDULE</h1>
-              <h1 class="mb-4">EVENT SCHEDULE</h1>
+              <h1 class="section-heading display-1">SCHEDULE</h1>
             </div>
           </div>
           <div class="row">
@@ -213,19 +219,16 @@
           </div>
         </div>
         <div class="col text-center">
-          <button class="btn timeline-btn" id="gallery-link">TIMELINE</button>
+          <button class="btn timeline-btn mt-3">TIMELINE</button>
         </div>
       </section>
       <!-- Schedule Section end -->
       <!-- Gallery Section -->
-      <section class="gallery-section">
+      <section class="gallery-section" id="gallery">
         <div class="container">
-          <div
-            class="row justify-content-center gallery-heading mb-4 pt-2 pb-2"
-          >
+          <div class="row justify-content-center gallery-heading">
             <div class="col-md-10 text-center">
-              <h1 class="mb-4 gallery-big display-3">GALLERY</h1>
-              <h1 class="mb-4">GALLERY</h1>
+              <h1 class="mb-3 section-heading display-3">GALLERY</h1>
             </div>
           </div>
           <div id="gallery">
@@ -282,12 +285,11 @@
       </section>
       <!-- Gallery Section end -->
       <!-- FAQ Section -->
-      <section class="faq-section mt-5">
+      <section class="faq-section" id="faq">
         <div class="container">
-          <div class="row justify-content-center faq-heading mb-4 pt-2 pb-2">
+          <div class="row justify-content-center faq-heading">
             <div class="col-md-10 text-center">
-              <h1 class="mb-4 faq-big display-4">FAQ's</h1>
-              <h1 class="mb-4">FAQ's</h1>
+              <h1 class="mb-3 section-heading display-4">FAQ's</h1>
             </div>
           </div>
           <div class="mb-3" id="faq">
@@ -484,12 +486,12 @@
     </main>
     <footer>
       <!-- Contact Section start -->
-      <section class="contactus-section">
+      <section class="contact-section">
         <div class="container text-center text-md-left">
           <div class="row">
-            <div class="col-md-4 mx-auto">
+            <div class="col-md-4 mx-auto text-center">
               <img
-                src="./images/Logo-black.svg"
+                src="./images/Logo.svg"
                 width="200"
                 height="150"
                 class="d-inline-block align-top"
@@ -500,9 +502,7 @@
                 <a href="https://www.facebook.com/ISTESCMANIT" target="_blank"
                   ><i class="fa fa-facebook" id="facebook"></i
                 ></a>
-                <a
-                  href="https://www.instagram.com/istemanit/?igshid=1fd70x2jhqnvl"
-                  target="_blank"
+                <a href="https://www.instagram.com/istemanit" target="_blank"
                   ><i class="fa fa-instagram" id="instagram"></i
                 ></a>
                 <a href="https://mobile.twitter.com/iste_manit" target="_blank"
@@ -518,7 +518,7 @@
 
             <hr class="clearfix w-100 d-md-none" />
 
-            <div class="col-md-2 mx-auto">
+            <div class="col-md-2 mx-auto text-center">
               <h4 class="font-weight-bold text-uppercase mt-3 mb-4">
                 <i class="fa fa-map-marker" aria-hidden="true"></i> ADDRESS
               </h4>
@@ -536,7 +536,7 @@
 
             <hr class="clearfix w-100 d-md-none" />
 
-            <div class="col-md-2 mx-auto">
+            <div class="col-md-2 mx-auto text-center">
               <h4 class="font-weight-bold text-uppercase mt-3 mb-4">
                 <i class="fa fa-mobile" aria-hidden="true"></i> CONTACT NUMBER
               </h4>
@@ -563,7 +563,7 @@
 
             <hr class="clearfix w-100 d-md-none" />
 
-            <div class="col-md-2 mx-auto">
+            <div class="col-md-2 mx-auto text-center">
               <h4 class="font-weight-bold text-uppercase mt-3 mb-4">
                 <i class="fa fa-envelope" aria-hidden="true"></i> EMAIL ADDRESS
               </h4>

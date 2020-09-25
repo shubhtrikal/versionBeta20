@@ -6,15 +6,24 @@
   scroll-behavior: smooth;
 }
 
-.my-navbar {
+.section-heading {
+  font-weight: bolder;
+  letter-spacing: 0.5rem;
+  color: #6f0f87;
+}
+
+/* Navbar */
+
+.navbar {
   background-color: #201037;
-  min-height: 10vh;
 }
 
 .navbar-dark .navbar-toggler {
   border: none;
   color: transparent;
 }
+
+/* Hero Section */
 
 .hero-section {
   background: url(../images/background.svg);
@@ -58,7 +67,6 @@
 }
 .timeline-btn {
   font-size: 1.2rem;
-  margin: 1.8rem;
   border-radius: 2rem;
 }
 
@@ -71,19 +79,23 @@
 /* About Section */
 
 .about-section {
-  padding: 10vh 0;
+  padding-top: 10vh;
 }
 
 .about-text h1 {
-  text-align: center;
-  padding: 1.2rem 1.2rem 1.2rem 1.2rem;
   letter-spacing: 0.3rem;
 }
-.about-text p {
-  padding: 1rem;
+.about-image img {
+  width: 90%;
+  border-radius: 0.2rem;
 }
-
 /* Schedule Section */
+
+.schedule-section,
+.gallery-section,
+.faq-section {
+  padding-top: 8vh;
+}
 
 .sch-box {
   padding: 1.6rem;
@@ -91,7 +103,6 @@
   margin: 2rem;
   border-radius: 1rem;
   box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.25);
-  /* height: 20rem; */
 }
 .sch-box p {
   font-size: 1rem;
@@ -105,23 +116,6 @@
   font-size: 0.8rem;
   font-weight: 700;
   color: #c71642;
-}
-.schedule-heading,
-.gallery-heading,
-.faq-heading {
-  position: relative;
-}
-.sch-big,
-.gallery-big,
-.faq-big {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-  font-weight: bolder;
-  letter-spacing: 0.5rem;
-  color: #c55ede;
-  z-index: -1;
 }
 
 /* Gallery Section */
@@ -154,7 +148,6 @@
 }
 
 .card-body {
-  /* background: #e8eeff; */
   background: #dba3e9;
 }
 
@@ -193,14 +186,13 @@
 
 /* CONTACT SECTION */
 
-.contactus-section {
-  background: #dba3e9;
-  /* background: linear-gradient(#ffffff, #201037); */
-  color: black;
+.contact-section {
+  background: #201037;
+  color: white;
 }
 
 .link {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .social-icon a {
@@ -209,7 +201,7 @@
 .social-icon .fa {
   font-size: 30px;
   line-height: 60px;
-  color: black;
+  color: white;
 }
 
 .social-icon #facebook:hover {
@@ -225,61 +217,29 @@
   color: #0077b5;
 }
 .link:hover {
-  color: black;
+  color: #ff003f;
 }
 
 /* Media Queries */
 
 @media (max-width: 992px) {
-  .about-section .row .col-md-10 .about-image img {
-    width: 100%;
+  /* About Section */
+  .about-section {
+    padding-top: 0;
+  }
+  .about-desktop {
+    display: none;
   }
   .about-section .row .col-md-10 .about-text {
     position: initial;
     width: initial;
     height: initial;
   }
-  .about-section .row .col-md-10:last-child {
-    position: relative;
-  }
-  .about-big {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0.9;
-    padding: 1.6rem 1.2rem 0 1.2rem;
-    font-weight: bolder;
-    letter-spacing: 0.3rem;
-    color: #c55ede;
-    z-index: -1;
-  }
 }
-
-/* 
-  X-Small devices (portrait phones, less than 576px)
-  No media query for `xs` since this is the default in Bootstrap
-  
-  Small devices (landscape phones, 576px and up) */
-
-@media (min-width: 576px) {
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
-  .last-row {
-    display: none;
-  }
-}
-@media (min-width: 768px) {
-}
-
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   /* About Section */
-  .about-section .row .col-md-10 .about-image img {
-    width: 90%;
-    border-radius: 0.2rem;
+  .about-mobile {
+    display: none;
   }
   .about-section .row .col-md-10:last-child {
     position: relative;
@@ -296,23 +256,23 @@
     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.25);
     z-index: 1;
   }
-  .about-big {
-    position: absolute;
-    top: 7%;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0.9;
-    padding: 2rem 2rem 2rem 5rem;
-    font-weight: bolder;
-    letter-spacing: 0.3rem;
-    color: #c55ede;
-    z-index: -1;
-  }
   .vb19 {
     position: absolute;
     bottom: 0;
     transform: translateX(-70%);
   }
+}
+
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .last-row {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
