@@ -44,6 +44,12 @@
   text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
+#text-typing {
+  border-right: 3px solid #ff003f;
+}
+.text-typing {
+  min-height: 8vh;
+}
 /* Dashboard button */
 
 .dashboard {
@@ -78,12 +84,20 @@
 
 /* About Section */
 
+.about-mobile {
+  padding: 0.5rem;
+}
+
 .about-section {
   padding-top: 10vh;
 }
 
 .about-text h1 {
   letter-spacing: 0.3rem;
+}
+.about-text p {
+  padding: 1rem;
+  text-align: justify;
 }
 .about-image img {
   width: 90%;
