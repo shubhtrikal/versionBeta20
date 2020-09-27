@@ -34,15 +34,15 @@ table .time
 	#myBtn {
 		display:none;
 		position: fixed;
-		bottom: 20px;
-		right: 30px;
+		bottom: 10px;
+		right: 10px;
 		z-index: 99;
 		font-size: 54px;
 		border: none;
 		outline: none;
 		color: #7a070d;
 		cursor: pointer;
-		padding: 15px;
+		padding: 5px;
 		
 	  }
 	  </style>
