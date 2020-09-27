@@ -260,6 +260,10 @@ margin-top:0;
   .last-row {
     display: none;
   }
+	.home
+	{
+		margin-top:11vh;
+	}
 }
 @media (min-width: 768px) {
 }
