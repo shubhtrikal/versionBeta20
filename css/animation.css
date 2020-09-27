@@ -1,0 +1,142 @@
+#logo1
+{
+	fill:none;fill-opacity:1;stroke:#d40000;stroke-width:0.817124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;
+	
+}
+#logo2
+{
+	fill:none;fill-opacity:1;stroke:#d40000;stroke-width:0.817124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;
+      
+}
+#logo3
+{
+	fill:none;fill-opacity:1;stroke:#d40000;stroke-width:0.817124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;
+       
+}
+#logo4
+{
+	fill:none;fill-opacity:1;stroke:#d40000;stroke-width:0.817124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1
+}
+#logo5
+{
+	fill:none;fill-opacity:1;stroke:#d40000;stroke-width:0.817124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;
+}
+#logo6
+{
+	fill:none;fill-opacity:1;stroke:#d40000;stroke-width:0.817124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;
+       
+}
+#logo7
+{
+	fill:none;fill-opacity:1;stroke:#d40000;stroke-width:0.817124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;	
+}
+#logo8
+{
+	fill:none;fill-opacity:1;stroke:#d40000;stroke-width:0.817124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;
+}
+#logo9
+{
+	fill:none;fill-opacity:1;stroke:#d40000;stroke-width:0.817124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;
+}
+#logo10
+{
+	fill:none;fill-opacity:1;stroke:#d40000;stroke-width:0.817124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;
+}
+#logo16
+{
+	font-variation-settings:normal;opacity:0.909677;vector-effect:none;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#d40000;stroke-width:2.94456;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;animation-name:color_change_alt; animation-duration:4s;animation-iteration-count:infinite;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1;
+	
+}
+#logo17
+{
+	opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#d40000;stroke-width:0.823188;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;
+}
+#logo12
+{
+	fill:#4d4d4d;fill-opacity:1;stroke:#d40000;stroke-width:0.897074;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;animation-name:color_change; animation-duration:4s;animation-iteration-count:infinite;
+}
+#path1265-8
+{
+	font-variation-settings:normal;opacity:0.999;vector-effect:none;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:#d40000;stroke-width:2.94456;stroke-linecap:square;animation-name:color_change; animation-duration:4s;animation-iteration-count:infinite;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke;stop-color:#000000;stop-opacity:1;
+}
+
+
+#logo13
+{
+	font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#d40000;stroke-width:3.67498;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1;animation-name:color_change2; animation-duration:4s;
+}
+
+#logo14
+{
+	font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#d40000;stroke-width:3.67498;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000;stop-opacity:1;animation-name:color_change2; animation-duration:4s;
+}
+
+#logo15
+{
+	opacity:1;fill:#d40000;fill-opacity:1;stroke:#d40000;stroke-width:3.1112;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke;
+}
+
+
+.logo2
+{
+	
+	display:inline-block;
+
+	width:max-width;
+	
+	animation-iteration-count:infinite;
+	animation-name:infinite-spinning;
+	animation-timing-function: linear;
+	animation-duration: 6s;
+	
+	
+	
+}
+@keyframes infinite-spinning
+ {
+  from {
+	
+    transform: rotate(0deg);
+	
+  }
+  25%{
+	
+	transform: rotate(36deg);
+  }
+  75%
+  {	
+  	
+   transform: rotate(-18deg);
+	
+  }
+  100%
+  {
+	transform: rotate(0deg);  
+  }
+}
+.cc
+{
+	animation-iteration-count:1;
+	animation-name:circle_translate;
+	animation-timing-function: ease-out;
+	animation-duration: 6s;
+}
+@keyframes circle_translate
+ {
+  from {
+	
+    stroke-opacity:0;
+	
+  }
+  50%{
+	
+	stroke-opacity:0;
+	
+  }
+  100%
+  {	
+  	transform:translateX(0%);	
+  }
+}
+
+
