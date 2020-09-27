@@ -138,5 +138,25 @@
   	transform:translateX(0%);	
   }
 }
-
+@media screen and (max-width: 350px)
+{
+	#svg1014
+	{
+		width:80%;
+		height:80%;
+		transform: translateX(-25px);
+		
+	}
+	#svg208
+	{
+		width:80%;
+		height:80%;
+	}
+	#svg1458
+	{
+		width:80%;
+		height:80%;
+		transform: translateX(-40px);
+	}
+}
 
