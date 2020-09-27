@@ -4,7 +4,8 @@ table .time
 		text-align:center;
 		border-collapse:separate;
         border-spacing: 20px 0;
-		margin:20px;
+		margin-top:20px;
+		
 	}
 	
 .time th
