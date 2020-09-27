@@ -52,6 +52,7 @@ margin-top:0;
 #sponsor
 {
   font-size:125%;
+  margin-top:11vh;
   padding-top:15vh;
   color:#e24277;
   font-weight:400;
@@ -260,10 +261,7 @@ margin-top:0;
   .last-row {
     display: none;
   }
-	#sponsor
-	{
-		margin-top:15vh;
-	}
+	
 }
 @media (min-width: 768px) {
 }
@@ -325,7 +323,12 @@ margin-top:0;
     display: none;
   }
 }
-@media (min-width: 768px) {
+@media (max-width: 512px)
+{
+	#sponsor
+	{
+		margin-top:10vh;
+	}
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
