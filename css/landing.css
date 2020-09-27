@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }body
 {
-		
+	
 }
 .hd
 {
@@ -15,7 +15,7 @@
 }
 .my-navbar {
   background: linear-gradient(to bottom, #372750 ,#4e0a75);
-  min-height: 10vh;
+  min-height: 9vh;
 }
 .nav-link
 {
@@ -27,6 +27,13 @@
 {
 
 }
+.active
+{
+  border-bottom: solid 3px #d6c5c5;
+  transition-timing-function: at ease;
+  
+}
+
 .main
 {
   padding-bottom: 0;
@@ -46,7 +53,9 @@ footer
   background-image:url("../pictures/background.jpg");
   background-size: cover;
   min-height:100vh;
-margin-top:0;
+  margin-top:0;	
+  background-attachment: fixed;
+  
 }
 
 #sponsor
@@ -61,6 +70,15 @@ margin-top:0;
 #logo
 {
 	margin-bottom:4%;
+}
+#text-typing{
+  display:inline-block;
+  height:50px;
+  font-size: 45px;
+  color:#10ad71;
+  vertical-align: center;
+  line-height: max-height;
+  
 }
 .dashboard {
   justify-content: center;
@@ -77,26 +95,7 @@ margin-top:0;
   cursor: pointer;
   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
 }
-#now_online
-{
-	font-family: "Montserrat", sans-serif;
-	font-weight:900;
-	animation-name:blink;
-	animation-duration: 2s;
-	animation-iteration-count:infinite;
-	font-size:120%;
-}
-@keyframes blink
-{
-	form
-	{
-		color:white;
-	}
-	to
-	{
-		color:green;
-	}	
-}
+
 #timer
 {
 	display:inline-block;
@@ -261,11 +260,16 @@ margin-top:0;
   .last-row {
     display: none;
   }
-	
 }
 @media (min-width: 768px) {
 }
-
+@media (max-width: 512px)
+{
+	#sponsor
+	{
+		margin-top:10vh;
+	}
+}
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 }
@@ -323,12 +327,7 @@ margin-top:0;
     display: none;
   }
 }
-@media (max-width: 512px)
-{
-	#sponsor
-	{
-		margin-top:10vh;
-	}
+@media (min-width: 768px) {
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
