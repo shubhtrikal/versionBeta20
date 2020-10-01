@@ -177,6 +177,11 @@ footer
   font-weight: 700;
   color: #c71642;
 }
+#sch-last-box{
+  box-sizing: border-box;
+  width: 35vw;
+  margin: 10px auto;
+}
 .img {
   padding: 0 2px 2px 0;
 }
@@ -267,6 +272,11 @@ footer
   }
 .sch-box {
     height: auto;
+  }
+#sch-last-box{
+    width: 65vw;
+    margin: 10px auto;
+    box-sizing: border-box;
   }
 }
 @media (min-width: 768px) {
