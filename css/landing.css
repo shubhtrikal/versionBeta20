@@ -72,6 +72,7 @@ footer
 	margin-bottom:4%;
 }
 #text-typing{
+  display:inline-block;
   vertical-align: center;
   color:white;
   border-right: 3px solid #ff003f;
