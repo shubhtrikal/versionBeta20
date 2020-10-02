@@ -73,7 +73,10 @@ footer
 }
 #text-typing{
   display:inline-block;
+  height:50px;
+  font-size: 40px;
   vertical-align: center;
+  line-height: max-height;
   color:white;
   border-right: 3px solid #ff003f;
 }
