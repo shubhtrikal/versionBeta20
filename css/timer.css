@@ -12,7 +12,7 @@ table .time
 
 {		
 		
-		background:#000000;
+		background:#fff;
 		border:2px #6f0f87 solid;
 		border-radius:50%;
 		color:#d40000;
@@ -26,7 +26,7 @@ table .time
 		height:max-height;
 		width:max-width;
 		font-family: cursive;
-		color:#000000;
+		color:#fff;
 		text-align:center;
 		font-size:75%;
 		font-weight:700;
