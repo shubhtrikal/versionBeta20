@@ -199,7 +199,31 @@ footer
 .img {
   padding: 0 2px 2px 0;
 }
+
+/* Sponsor Section */
+.sponsor-section
+{
+  margin-top: 2rem;
+  margin-bottom: : 3rem;
+}
+
+.sponsor-image{
+  margin-top: 4rem;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* Media Queries */
+
+@media (max-width: 440px) {
+
+	.devfolio {
+	    width: 100% !important;
+	}
+
+}
 
 @media (max-width: 992px) {
   .about-section .row .col-md-10 .about-image img {
