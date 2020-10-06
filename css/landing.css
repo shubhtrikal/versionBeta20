@@ -5,8 +5,6 @@
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
-body {
-}
 .hd {
   background: linear-gradient(to bottom, #372750, #4e0a75);
 }
@@ -18,8 +16,6 @@ body {
   margin-left: 20px;
   font-size: 120%;
   color: white;
-}
-.navbar-brand/*logo*/ {
 }
 .active {
   border-bottom: solid 3px #d6c5c5;
@@ -56,9 +52,12 @@ footer {
 #logo {
   margin-bottom: 4%;
 }
+.text-typing {
+  min-height: 60px;
+}
+
 #text-typing {
   display: inline-block;
-  height: 50px;
   font-size: 40px;
   vertical-align: center;
   line-height: max-height;
@@ -136,24 +135,26 @@ footer {
   letter-spacing: 0.5rem;
   color: #7a070d;
 }
-.about-section {
-  padding-top: 10vh;
-}
 
 .about-text h1 {
   letter-spacing: 0.3rem;
+}
+.about-text p {
+  padding: 1rem;
+  text-align: justify;
 }
 .about-image img {
   width: 90%;
   border-radius: 0.2rem;
 }
 /* Schedule Section */
-
+.about-section,
 .schedule-section,
 .gallery-section,
 .sponsors-section,
+.prize-section,
 .faq-section {
-  padding-top: 8vh !important;
+  padding-top: 12vh !important;
 }
 
 .sch-box {
@@ -225,7 +226,6 @@ footer {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
 .prize1 {
   background: url("../images/first.png");
   background-position: center;
@@ -393,8 +393,6 @@ footer {
   width: 400px;
   height: 300px;
   margin: auto;
-}
-.sponsor-container2 {
 }
 
 /* Media Queries */
