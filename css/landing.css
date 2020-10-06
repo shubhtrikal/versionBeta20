@@ -151,8 +151,9 @@ footer {
 
 .schedule-section,
 .gallery-section,
+.sponsors-section,
 .faq-section {
-  padding-top: 8vh;
+  padding-top: 8vh !important;
 }
 
 .sch-box {
@@ -262,6 +263,12 @@ footer {
 }
 
 /* Media Queries */
+
+@media (max-width: 1420px) {
+  .sponsor-container {
+    width: 350px;
+  }
+}
 
 @media (max-width: 440px) {
   .sponsor-container {
