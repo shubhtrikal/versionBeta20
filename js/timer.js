@@ -48,7 +48,7 @@ faqBtn.forEach(function (button) {
 })
 
 
-let content = ["Version β 3.0 ", "IDE for your Code", "Now Online... ", "It's all Talk until Code Runs"];
+let content = ["Version β 3.0 ", "IDE for your Code", "Now Online... ", "It's all Talk until the Code Runs"];
 
 let part = 0;
 
