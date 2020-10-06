@@ -146,7 +146,14 @@ function scrollFunction() {
     }
     navi[2].classList.add("active");
   }
-
+//prizes
+  if (document.documentElement.scrollTop > 2000 && document.documentElement.scrollTop <= 2400) {
+    for (var i = 0; i < navi.length; i++) {
+      if (navi[i].classList.contains("active"))
+        navi[i].classList.remove("active");
+    }
+    navi[3].classList.add("active");
+  }
 
   //gallery
   if (document.documentElement.scrollTop > 3000 && document.documentElement.scrollTop <= 4200) {
