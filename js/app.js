@@ -20,3 +20,21 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+// Card flip Prizes Section
+// Event listner in click on card
+var card1 = document.getElementById('p1');
+card1.addEventListener( 'click', function() {
+  card1.classList.toggle('is-flipped');
+});
+
+
+var card2 = document.getElementById('p2');
+card2.addEventListener( 'click', function() {
+  card2.classList.toggle('is-flipped');
+});
+
+var card3 = document.getElementById('p3');
+card3.addEventListener( 'click', function() {
+  card3.classList.toggle('is-flipped');
+});
