@@ -37,20 +37,35 @@ footer {
   background-image: url("../pictures/background.jpg");
   background-size: cover;
   min-height: 100vh;
-  margin-top: 0;
+
   background-attachment: fixed;
 }
 
-#sponsor,
+#sponsor
+{
+	  font-size: 125%;
+  margin-top: 11vh;
+  padding-top: 15vh;
+  color: white;
+  font-weight: 400;
+  visibility:hidden;
+}
+}
 #sponsors {
   font-size: 125%;
   margin-top: 11vh;
   padding-top: 15vh;
   color: white;
   font-weight: 400;
+  
+}
+#sponsor2
+{	
+	color:#ffffff;
+	margin-bottom:3%;
 }
 #logo {
-  margin-bottom: 4%;
+  margin-bottom: 2%;
 }
 .text-typing {
   min-height: 60px;
