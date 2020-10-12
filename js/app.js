@@ -21,20 +21,34 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-// Card flip Prizes Section
-// Event listner in click on card
+// Card animate Prizes Section
+// event on hover class 'animate' will add in classList
 var card1 = document.getElementById('p1');
-card1.addEventListener('click', function () {
-  card1.classList.toggle('is-flipped');
-});
-
-
 var card2 = document.getElementById('p2');
-card2.addEventListener('click', function () {
-  card2.classList.toggle('is-flipped');
+var card3 = document.getElementById('p3');
+
+card1.addEventListener('mouseenter',function(){
+    card1.classList.toggle('animate');
 });
 
-var card3 = document.getElementById('p3');
-card3.addEventListener('click', function () {
-  card3.classList.toggle('is-flipped');
+card1.addEventListener('mouseleave',function(){
+  card1.classList.toggle('animate');
+});
+
+
+card2.addEventListener('mouseenter',function(){
+  card2.classList.toggle('animate');
+});
+
+card2.addEventListener('mouseleave',function(){
+card2.classList.toggle('animate');
+});
+
+
+card3.addEventListener('mouseenter',function(){
+  card3.classList.toggle('animate');
+});
+
+card3.addEventListener('mouseleave',function(){
+card3.classList.toggle('animate');
 });
