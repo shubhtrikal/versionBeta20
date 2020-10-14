@@ -70,7 +70,16 @@ footer {
 .text-typing {
   min-height: 60px;
 }
-
+#poweredby{
+  background-color: white;
+  width: 250px;
+  height: 80px;
+  padding: 10px;
+  position: relative;
+  margin : auto;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
 #text-typing {
   display: inline-block;
   font-size: 40px;
