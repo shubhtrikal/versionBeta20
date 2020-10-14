@@ -130,7 +130,7 @@ function scrollFunction() {
 
 
   //About
-  if (document.documentElement.scrollTop > 400 && document.documentElement.scrollTop <= 1200) {
+  if (document.documentElement.scrollTop > 400 && document.documentElement.scrollTop <= 1700) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
         navi[i].classList.remove("active");
@@ -139,7 +139,7 @@ function scrollFunction() {
   }
 
   //Schdule
-  if (document.documentElement.scrollTop > 1200 && document.documentElement.scrollTop <= 2000) {
+  if (document.documentElement.scrollTop > 1700 && document.documentElement.scrollTop <= 2600) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
         navi[i].classList.remove("active");
@@ -147,7 +147,7 @@ function scrollFunction() {
     navi[2].classList.add("active");
   }
 //prizes
-  if (document.documentElement.scrollTop > 2000 && document.documentElement.scrollTop <= 2400) {
+  if (document.documentElement.scrollTop > 2900 && document.documentElement.scrollTop <= 3200) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
         navi[i].classList.remove("active");
@@ -156,7 +156,7 @@ function scrollFunction() {
   }
 
   //gallery
-  if (document.documentElement.scrollTop > 3000 && document.documentElement.scrollTop <= 4200) {
+  if (document.documentElement.scrollTop > 3500 && document.documentElement.scrollTop <= 4700) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
         navi[i].classList.remove("active");
@@ -164,7 +164,7 @@ function scrollFunction() {
     navi[4].classList.add("active");
   }
   //Sponsor
-  if (document.documentElement.scrollTop > 4200 && document.documentElement.scrollTop <= 7100) {
+  if (document.documentElement.scrollTop > 4700 && document.documentElement.scrollTop <= 7600) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
         navi[i].classList.remove("active");
@@ -173,7 +173,7 @@ function scrollFunction() {
   }
 
   //FAQS
-  if (document.documentElement.scrollTop > 7100 && document.documentElement.scrollTop <= 7600) {
+  if (document.documentElement.scrollTop > 7600 && document.documentElement.scrollTop <= 8100) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
         navi[i].classList.remove("active");
