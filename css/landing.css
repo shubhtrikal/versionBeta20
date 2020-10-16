@@ -41,28 +41,25 @@ footer {
   background-attachment: fixed;
 }
 
-#sponsor
-{
-	  font-size: 125%;
+#sponsor {
+  font-size: 125%;
   margin-top: 11vh;
   padding-top: 15vh;
   color: white;
   font-weight: 400;
-  visibility:hidden;
+  visibility: hidden;
 }
-}
+
 #sponsors {
   font-size: 125%;
   margin-top: 11vh;
   padding-top: 15vh;
   color: white;
   font-weight: 400;
-  
 }
-#sponsor2
-{	
-	color:#ffffff;
-  margin-bottom:3%;
+#sponsor2 {
+  color: #ffffff;
+  margin-bottom: 3%;
 }
 #logo {
   margin-bottom: 2%;
@@ -70,13 +67,13 @@ footer {
 .text-typing {
   min-height: 60px;
 }
-#poweredby{
+#poweredby {
   background-color: white;
   width: 250px;
   height: 80px;
   padding: 10px;
   position: relative;
-  margin : auto;
+  margin: auto;
   box-sizing: border-box;
   border-radius: 15px;
 }
@@ -167,8 +164,8 @@ footer {
   padding: 1rem;
   text-align: justify;
 }
-.mascot-text p{
-  padding : 1rem;
+.mascot-text p {
+  padding: 1rem;
   text-align: justify;
 }
 .about-image img {
@@ -247,18 +244,18 @@ footer {
   backface-visibility: hidden;
   border-radius: 7px;
 }
-.prize-value{
+.prize-value {
   position: relative;
   font-size: 40px;
-    color: #111343;
-    font-weight: 600;
-    letter-spacing: 1px;
-    line-height: 1;
-    margin-top: 25px;
-    margin-bottom: 15px;
+  color: #111343;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
- .animate{
-  transform:  scale(1.2);
+.animate {
+  transform: scale(1.2);
   overflow: hidden;
 }
 /* special prize css start below*/
@@ -411,6 +408,9 @@ footer {
   margin: auto;
 }
 
+.coc a {
+  text-decoration: none;
+}
 /* Media Queries */
 
 @media (max-width: 1420px) {
