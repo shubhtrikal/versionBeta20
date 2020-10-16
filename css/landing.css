@@ -449,6 +449,16 @@ footer {
   text-decoration: none;
   justify-content: center;
 }
+
+#brochure{
+  text-align: center;
+  margin: 0 auto;
+}
+#download-brochure
+{
+  width:max-content;
+  margin: 0 auto;
+}
 /* Media Queries */
 
 @media (max-width: 1420px) {
