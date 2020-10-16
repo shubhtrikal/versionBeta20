@@ -260,17 +260,17 @@ footer {
 }
 /* special prize css start below*/
 
-.pos-head{
+.pos-head {
   box-sizing: border-box;
   position: relative;
   background: #3e4348;
-  color:white;
+  color: white;
   text-align: center;
   margin: 0 auto;
-  width:220px;
+  width: 220px;
   padding: 7px;
 }
-.goodies{
+.goodies {
   box-sizing: border-box;
   position: relative;
   margin: 10px auto;
@@ -278,7 +278,7 @@ footer {
   height: 230px;
 }
 
-.goodies-des{
+.goodies-des {
   box-sizing: border-box;
   position: relative;
   text-align: center;
@@ -288,13 +288,10 @@ footer {
   font-weight: 600;
   line-height: 1;
 }
-.goodies-des .quantity{
+.goodies-des .quantity {
   font-weight: 1000;
   font-size: 30px;
 }
-
-
-
 
 .Prizes {
   font-family: "Montserrat", sans-serif;
@@ -443,9 +440,14 @@ footer {
   height: 300px;
   margin: auto;
 }
-
+@media (max-width: 576px) {
+  .coc {
+    min-width: 250px;
+  }
+}
 .coc a {
   text-decoration: none;
+  justify-content: center;
 }
 /* Media Queries */
 
@@ -575,9 +577,6 @@ footer {
 }
 
 /*MEDIA QURIES*/
-
-@media (min-width: 576px) {
-}
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
