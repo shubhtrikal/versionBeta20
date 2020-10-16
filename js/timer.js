@@ -147,7 +147,7 @@ function scrollFunction() {
     navi[2].classList.add("active");
   }
 //prizes
-  if (document.documentElement.scrollTop > 2900 && document.documentElement.scrollTop <= 3200) {
+  if (document.documentElement.scrollTop > 2900 && document.documentElement.scrollTop <= 3800) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
         navi[i].classList.remove("active");
@@ -156,7 +156,7 @@ function scrollFunction() {
   }
 
   //gallery
-  if (document.documentElement.scrollTop > 3500 && document.documentElement.scrollTop <= 4700) {
+  if (document.documentElement.scrollTop > 3800 && document.documentElement.scrollTop <= 5600) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
         navi[i].classList.remove("active");
@@ -164,7 +164,7 @@ function scrollFunction() {
     navi[4].classList.add("active");
   }
   //Sponsor
-  if (document.documentElement.scrollTop > 4700 && document.documentElement.scrollTop <= 7600) {
+  if (document.documentElement.scrollTop > 5800 && document.documentElement.scrollTop <= 8100) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
         navi[i].classList.remove("active");
@@ -173,7 +173,7 @@ function scrollFunction() {
   }
 
   //FAQS
-  if (document.documentElement.scrollTop > 7600 && document.documentElement.scrollTop <= 8100) {
+  if (document.documentElement.scrollTop > 8100 && document.documentElement.scrollTop <= 8600) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
         navi[i].classList.remove("active");
