@@ -260,6 +260,42 @@ footer {
 }
 /* special prize css start below*/
 
+.pos-head{
+  box-sizing: border-box;
+  position: relative;
+  background: #3e4348;
+  color:white;
+  text-align: center;
+  margin: 0 auto;
+  width:220px;
+  padding: 7px;
+}
+.goodies{
+  box-sizing: border-box;
+  position: relative;
+  margin: 10px auto;
+  width: 250px;
+  height: 230px;
+}
+
+.goodies-des{
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  margin: 10px auto;
+  color: #111343;
+  padding: 5px;
+  font-weight: 600;
+  line-height: 1;
+}
+.goodies-des .quantity{
+  font-weight: 1000;
+  font-size: 30px;
+}
+
+
+
+
 .Prizes {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
