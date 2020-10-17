@@ -450,13 +450,12 @@ footer {
   justify-content: center;
 }
 
-#brochure{
+#brochure {
   text-align: center;
   margin: 0 auto;
 }
-#download-brochure
-{
-  width:max-content;
+#download-brochure {
+  width: max-content;
   margin: 0 auto;
 }
 /* Media Queries */
@@ -676,4 +675,7 @@ footer {
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
+}
+.sponsor-container {
+  width: 100%;
 }
