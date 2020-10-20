@@ -164,7 +164,7 @@ function scrollFunction() {
     navi[4].classList.add("active");
   }
   //Sponsor
-  if (document.documentElement.scrollTop > 5800 && document.documentElement.scrollTop <= 8100) {
+  if (document.documentElement.scrollTop > 5800 && document.documentElement.scrollTop <= 8500) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
         navi[i].classList.remove("active");
@@ -173,7 +173,7 @@ function scrollFunction() {
   }
 
   //FAQS
-  if (document.documentElement.scrollTop > 8100 && document.documentElement.scrollTop <= 8600) {
+  if (document.documentElement.scrollTop > 8500 && document.documentElement.scrollTop <= 9100) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
         navi[i].classList.remove("active");
