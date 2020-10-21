@@ -1,4 +1,4 @@
-
+/*
 
 // Set the date we're counting down to
 var countDownDate = new Date("Oct 5, 2020 00:00:00").getTime();
@@ -30,7 +30,7 @@ var x = setInterval(function () {
     document.getElementById("timer").innerHTML = "";
   }
 }, 1000);
-
+*/
 
 const faqBtn = document.querySelectorAll(".btn")
 
