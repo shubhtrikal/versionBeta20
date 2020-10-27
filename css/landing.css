@@ -398,6 +398,7 @@ footer {
   margin-right: 10px;
   left: 50%;
   transform: translate(-50%, -50%);
+  object-fit: contain;
 }
 .sponsor-image-daur {
   margin-top: 3rem;
