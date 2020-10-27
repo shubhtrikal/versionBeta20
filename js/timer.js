@@ -116,7 +116,7 @@ function scrollFunction() {
   }
   /////////////////////////////////////////////////////////////////////////////////////////
   var navi = document.getElementsByClassName("nav-link");
-  console.log(navi)
+  // console.log(navi)
 
 
   //Home
@@ -146,7 +146,7 @@ function scrollFunction() {
     }
     navi[2].classList.add("active");
   }
-//prizes
+  //prizes
   if (document.documentElement.scrollTop > 2900 && document.documentElement.scrollTop <= 3800) {
     for (var i = 0; i < navi.length; i++) {
       if (navi[i].classList.contains("active"))
